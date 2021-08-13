@@ -1,0 +1,33 @@
+
+
+body{
+    background-color: #222;
+}
+
+.parent{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.big{
+    margin-bottom: 10px;
+}
+.big img{
+    width: 800px;
+    height: 450px;
+}
+.small {
+    display: flex;
+    width: 800px;
+}
+.small img{
+    width: 24%;
+    height: 100px;
+    margin-right: 3px;
+    cursor: pointer;
+    border: 3px solid #fff;
+    transition: all 0.2s ease-in-out;
+}
+.small img:hover{
+    border: 3px solid brown;
+
+}
